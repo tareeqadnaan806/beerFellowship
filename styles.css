@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmVlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input {
+  height: 30px;
+  width: 25%;
+  padding: 10px;
+}
+
+.search button {
+  height: 30px;
+  width: 60px;
+  margin: 2rem;
+  background-color: black;
+  color: whitesmoke;
+  font-size: larger;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 250px;
+  height: 550px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(226, 220, 220);
+  color: aliceblue;
+}
+
+.container img {
+  max-width: 40%;
+  height: 400px;
+  margin: 1rem;
+}
+
+.container h1 {
+  margin: 1rem;
+  text-align: center;
+}
+
+#pages {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  color: black;
+  font-size: larger;
+  font-weight: 900;
+}
+
+#pages span {
+  border: 1px solid grey;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+footer {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border: 2px solid rgb(146, 92, 16);
+}
+
+.first_brewed {
+  font-size: large;
+}
