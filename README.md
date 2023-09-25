@@ -1,5 +1,7 @@
 # Fellowship of the Beer Project
 
+## you can find the live link here: https://tareeqadnaan806.github.io/beerFellowship/
+
 ## Overview
 The Fellowship of the Beer Project is a web application that allows users to explore and search for various beer products. It provides a user-friendly interface with features such as sliders for filtering, searching for specific products, and event delegation for pagination.
 
